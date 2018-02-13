@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir bin
+javac -d bin src/*.java
+java -classpath ./bin src.Main
+rm -rf bin
